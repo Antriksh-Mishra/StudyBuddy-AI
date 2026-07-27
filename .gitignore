@@ -1,0 +1,35 @@
+# Dependency directories
+**/node_modules/
+**/venv/
+
+# Local configuration files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Build output
+**/dist/
+**/build/
+
+# Python caching & byte-code
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+
+# Databases
+**/*.db
+**/*.sqlite
+**/vector_store/
+
+# Logs & temp files
+**/*.log
+**/out.txt
+**/error.log
+.DS_Store
+
+# Uploaded documents
+**/uploads/
